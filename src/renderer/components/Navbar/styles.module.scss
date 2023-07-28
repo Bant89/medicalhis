@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0.5em;
+  color: #064caa;
+  background-color: #fff;
+
+  button {
+    background: transparent;
+    border: none;
+    outline: 0;
+    box-shadow: none;
+  }
+
+  .rightContent {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+    margin: 0;
+
+    .mainContent {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      min-width: 250px;
+
+      img {
+        width: 45px;
+        height: 45px;
+      }
+      .userInformation {
+        margin: 0 15px;
+        display: flex;
+        flex-direction: column;
+
+        h4 {
+          margin: 0;
+          font-weight: 300;
+          color: #0a3875;
+        }
+
+        p {
+          margin: 0 0 5px 0;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
